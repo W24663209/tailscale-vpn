@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  otngn:
+    build: .
+    container_name: otngn
+    restart: always
